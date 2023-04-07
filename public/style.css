@@ -15,19 +15,26 @@ justify-content: center;
 align-items: center;
 flex-direction: column;
 padding: 2vw;
+background-color: #333333;
 }
 
 input {
 width: 60vw;
 border: 1px solid #ddd;
-height: 5vw;
+height: 4vw;
 padding: 0 2vw;
 font-size: 1.5vw;
+}
+label{
+    color: white;
+    font-family:Arial, Helvetica, sans-serif;
+    font-style: inherit;
+    font-size: large;
 }
 
 button {
 width: 60vw;
-height: 5vw;
+height: 4vw;
 font-size: 1.5vw;
 background: #069;
 text-align: center;
@@ -38,12 +45,18 @@ margin-top: 1vw;
 border: none;
 }
 
+
 .messages {
-width: 60vw;
-height: 40vw;
+/* width: 60vw; */
+height: 30vw;
 margin: 2vw 0;
 border: 1px solid #ddd;
 padding: 2vw;
+border-radius: 15px;
+background-color: whitesmoke;
+/* background-position: center; */
+/* background-size: cover; */
+background-image: url('https://www.papeiseparede.com.br/3257-thickbox_default/papel-de-parede-whatsapp-branco-e-azul.jpg.webp') !important;
 }
 
 @media screen and (max-width: 990px) {
@@ -55,7 +68,7 @@ button,
 
 input,
 button {
-    height: 2rem;
+    height: 1rem;
     font-size: 1rem;
 }
 
