@@ -12,6 +12,7 @@ app.set('view engine', 'html')
 
 app.use('/', (req, res) => {
     res.render('index.html')
+    // res.render('chat_app.html')
 })
 
 let messages = []
