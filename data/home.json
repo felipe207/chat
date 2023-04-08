@@ -1,0 +1,45 @@
+{
+	"home": [
+		{
+			"nome": "Suzane",
+			"status": "Online a 7 minutos",
+			"sexo": "F"
+		},
+		{
+		    "nome": "Felipe",
+            "status": "online",
+			"sexo": "M"
+		},
+		{
+			"nome": "Ana",
+			"status": "Online a 7 minutos",
+			"sexo": "F"
+		},
+		{
+		    "nome": "João",
+            "status": "online",
+			"sexo": "M"
+		},
+		{
+			"nome": "Ana Carolina",
+			"status": "Online a 7 minutos",
+			"sexo": "F"
+		},
+		{
+		    "nome": "João Paulo",
+            "status": "online",
+			"sexo": "M"
+		},
+		{
+			"nome": "Anaí",
+			"status": "Online a 7 minutos",
+			"sexo": "F"
+		},
+		{
+		    "nome": "João Victo",
+            "status": "online",
+			"sexo": "M"
+		}
+
+	]
+}
