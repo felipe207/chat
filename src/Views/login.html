@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Chat do Pinheiro | Login</title>
+        <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    </head>
+    <body>
+        <div class="app">
+            <input id="email" type="email">
+            <input id="senha" type="password">
+            <button onClick='Logar()'>Logar </button>
+        </div>
+        <script>
+            function Logar() {
+                email = document.querySelector('#email').value;
+                senha = document.querySelector('#senha').value;
+
+                if (!email || !senha) {
+                    return alert('Por favor, complete os campos.');
+                }
+
+                axios.post('api/users/logar', {
+                    email, senha
+                }).then(response => {
+                    if(response.data.erro){
+                    return alert(response.data.erro);
+                }else{
+                    window.location.href = '/privado';
+                }
+            }).catch(erro=>{
+                    return alert(response.data.erro);
+                });
+            }
+
+        </script>
+    </body>
+</html>
